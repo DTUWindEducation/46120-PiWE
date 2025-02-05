@@ -70,3 +70,5 @@ def clean_pitch(pitch_angles, status_signals):
 x = [-1, 2, 6, 95,76]  # "raw" pitch angles
 status = [1, 0, 0, 0,0]  # status signals
 print(clean_pitch(x, status))  # Output: [-999, 2, 6, 95]
+
+# this is the end, lets push again

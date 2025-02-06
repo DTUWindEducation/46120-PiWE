@@ -1,6 +1,6 @@
 # 46120: Scientific Programming for Wind Energy
 
-Moderen engineering (and science) requires foundational skills in the collaborative design,
+Modern engineering (and science) requires foundational skills in the collaborative design,
 creation, critical analysis and communication of code. This course gives necessary skills in
 these areas to MSc/PhD students working in wind energy.
 
@@ -10,7 +10,7 @@ Kursusbasen page: [direct link](https://kurser.dtu.dk/course/46120).
 
 ### Where/when
 
-SPP 2025 dates, times and locations:
+PiWE 2025 dates, times and locations:
  * Thursdays, **9:00(!!)** to 12:00
  * Physical location: Lyngby 308/A011
  * Virtual location: Zoom link on Learn page
@@ -23,19 +23,19 @@ The course is hybrid, meaning that you can attend physically or online as you ch
 |---------|---------|------------------------------------------------------|------------------------------------|
 | Week 0  | ---     | Set up, prep for Week 1                              |                                    |
 | Week 1  | 06-feb  | Introduction, Git/GitLab                             | Pre-class preparation              |
-| Week 2  | 13-feb  | CodeCamp I: Loading and plotting, PSD, eigenanalysis | Sign up for CodeCamp project group |
-| Week 3  | 20-feb  | CodeCamp II: simulate_turbie()                       |                                    |
-| Week 4  | 27-feb  | Diagrams and CodeCamp final project details          |                                    |
-| Week 5  | 06-mar  | CodeCamp final project presentations                 | CodeCamp final project (pass/fail) |
-| Week 6  | 13-mar  | Packaging and environments                           |                                    |
-| Week 7  | 20-mar  | Final project introduction                           | Sign up for final project group    |
-| Week 8  | 27-mar  | Classes, inheritence and OOP                         |                                    |
-| Week 9  | 03-apr  | Computational thinking and design of architecture    |                                    |
-| Week 10 | 10-apr  | PEP8 / PEP257 and linters                            |                                    |
-|  EASTER | 17-apr  | --                                                   |                                    |
-| Week 11 | 24-apr  | Python on Gbar (HPC)                                 |                                    |
-| Week 12 | 01-may  | Test-driven development                              | Package should be complete         |
-| Week 13 | 08-may  | Quiz, final-project presentations                    | Final project (pass fail)          |
+| Week 2  | 13-feb  | Functions and tests                                  |                                    |
+| Week 2  | 20-feb  | CodeCamp I: Loading and plotting, PSD, eigenanalysis | Sign up for CodeCamp project group |
+| Week 3  | 27-feb  | CodeCamp II: simulate_turbie()                       |                                    |
+| Week 4  | 06-mar  | Diagrams and CodeCamp final project details          |                                    |
+| Week 5  | 13-mar  | CodeCamp final project presentations                 | CodeCamp final project (pass/fail) |
+| Week 6  | 20-mar  | Packaging and environments                           |                                    |
+| Week 7  | 27-mar  | Final project introduction                           | Sign up for final project group    |
+| Week 8  | 03-apr  | Classes, inheritence and OOP                         |                                    |
+| Week 9  | 10-apr  | Computational thinking and design of architecture    |                                    |
+| Week 10 | 17-apr  | PEP8 / PEP257 and linters                            |                                    |
+|  EASTER | 24-apr  | --                                                   |                                    |
+| Week 11 | 01-may  | Python on Gbar (HPC)                                 | Package should be complete         |
+| Week 12 | 08-may  | Quiz, final-project presentations                    | Final project (pass fail)          |
 
 ### Hand-ins and grading
 
@@ -56,5 +56,4 @@ be pushed in the coming weeks.
 
 ## Sign-ups for groups
 
- * Groups for CodeCamp : link to be added 
- * Groups for final project: link to be added
+ * On Learn.

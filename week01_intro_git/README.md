@@ -76,7 +76,9 @@ This should be done together with your team. Your team can meet physically, virt
 In `GitAnswers.md`, write 1 to 2 sentences to answer each of the following
 questions.  (Note that for question 6 you will need to also push an image.)
 
-1.	What is the difference between git and GitLab?  
+1.	What is the difference between git and GitLab?
+  - Git is a software and GitLab is a online hosting service.  
+  
 2.	What is the difference between GitLab, GitHub, and BitBucket?  
 3.	Why would I ever want to use git, but not GitLab?  
 4.	What are the steps to update the GitLab server with some changes I made on my computer?  

@@ -24,18 +24,18 @@ The course is hybrid, meaning that you can attend physically or online as you ch
 | Week 0  | ---     | Set up, prep for Week 1                              |                                    |
 | Week 1  | 06-feb  | Introduction, Git/GitLab                             | Pre-class preparation              |
 | Week 2  | 13-feb  | Functions and tests                                  |                                    |
-| Week 2  | 20-feb  | CodeCamp I: Loading and plotting, PSD, eigenanalysis | Sign up for CodeCamp project group |
-| Week 3  | 27-feb  | CodeCamp II: simulate_turbie()                       |                                    |
-| Week 4  | 06-mar  | Diagrams and CodeCamp final project details          |                                    |
-| Week 5  | 13-mar  | CodeCamp final project presentations                 | CodeCamp final project (pass/fail) |
-| Week 6  | 20-mar  | Packaging and environments                           |                                    |
-| Week 7  | 27-mar  | Final project introduction                           | Sign up for final project group    |
-| Week 8  | 03-apr  | Classes, inheritence and OOP                         |                                    |
-| Week 9  | 10-apr  | Computational thinking and design of architecture    |                                    |
-| Week 10 | 17-apr  | PEP8 / PEP257 and linters                            |                                    |
+| Week 3  | 20-feb  | CodeCamp I: Loading and plotting, PSD, eigenanalysis | Sign up for CodeCamp project group |
+| Week 4  | 27-feb  | CodeCamp II: simulate_turbie()                       |                                    |
+| Week 5  | 06-mar  | Diagrams and CodeCamp final project details          |                                    |
+| Week 6  | 13-mar  | CodeCamp final project presentations                 | CodeCamp final project (pass/fail) |
+| Week 7  | 20-mar  | Packaging and environments                           |                                    |
+| Week 8  | 27-mar  | Final project introduction                           | Sign up for final project group    |
+| Week 9  | 03-apr  | Classes, inheritence and OOP                         |                                    |
+| Week 10  | 10-apr  | Computational thinking and design of architecture    |                                    |
+| Week 11 | 17-apr  | PEP8 / PEP257 and linters                            |                                    |
 |  EASTER | 24-apr  | --                                                   |                                    |
-| Week 11 | 01-may  | Python on Gbar (HPC)                                 | Package should be complete         |
-| Week 12 | 08-may  | Quiz, final-project presentations                    | Final project (pass fail)          |
+| Week 12 | 01-may  | Python on Gbar (HPC)                                 | Package should be complete         |
+| Week 13 | 08-may  | Quiz, final-project presentations                    | Final project (pass fail)          |
 
 ### Hand-ins and grading
 

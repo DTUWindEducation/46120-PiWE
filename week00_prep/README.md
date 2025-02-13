@@ -48,14 +48,14 @@ both have a copy locally before coming to class in Week 1.
 
 ## 2. Install scientific Python packages
 
-If you already have `numpy`, `matplotlib`, `scipy` and `pandas` installed in a Python distribution/environment, you may skip this step.
+If you already have the packages below installed in a Python distribution/environment, you may skip this step.
 
 Search for and open an Anaconda Prompt (application). In the resulting terminal, enter the following
 command:  
 
-   ```python -m pip install numpy matplotlib scipy pandas```  
+   ```python -m pip install numpy matplotlib scipy pandas pytest```  
 
-This will install the numpy, matplotlib, scipy and pandas packages to your Python environment.
+This will install the numpy, matplotlib, scipy, pandas and pytest packages to your base Python environment.
 We will learn more about these packages during the course.
 
 

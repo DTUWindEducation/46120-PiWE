@@ -1,6 +1,6 @@
 # PiWE Week 1: Course introduction and git/GitHub
 
-TA office hours: to be announced
+TA office hours: Mondays from 13:00 to 15:00
 
 Slides: in this folder.
 

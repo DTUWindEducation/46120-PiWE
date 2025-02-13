@@ -76,10 +76,21 @@ This should be done together with your team. Your team can meet physically, virt
 In `GitAnswers.md`, write 1 to 2 sentences to answer each of the following
 questions.  (Note that for question 6 you will need to also push an image.)
 
-1.	What is the difference between git and GitLab?  
+1.	What is the difference between git and GitLab? 
+        Git is a version control system that manages code changes locally and remotely, while GitLab is a web-based Git repository hosting service.
 2.	What is the difference between GitLab, GitHub, and BitBucket?  
-3.	Why would I ever want to use git, but not GitLab?  
-4.	What are the steps to update the GitLab server with some changes I made on my computer?  
+        GitLab, GitHub, and Bitbucket are all platforms for hosting Git repositories online.
+          - GitLab provides tools for managing code, tracking issues, and automating development processes. It can also be installed on a private server.
+          - GitHub is the most widely used platform, especially for open-source projects, and allows developers to collaborate on code easily.
+          - Bitbucket is designed for teams and works, expensive to use.
+3.	Why would I ever want to use git, but not GitLab? 
+        You might want to use Git without GitLab if you only need local version control and do not need online hosting or collaboration features. Git allows you to track changes, manage branches, and revert to previous versions entirely on your own computer. This is useful for personal projects, offline work, or when using another Git hosting service like GitHub or Bitbucket instead of GitLab.
+4.	What are the steps to update the GitLab server with some changes I made on my computer? 
+        Check for the latest updates by pulling changes from the GitLab repository to ensure your local copy is up to date.
+        Add the changes you made to the staging area.
+        Commit your changes with a clear message describing what you updated.
+        Push the changes to the GitLab server to update the repository online.
+
 5.	What is a branch and why would I use one?  
 6.	How could you visualize a branch with 3 commits, and then another branch that breaks off after the second commit and has a single commit?  
 7.	Give an example of a set of git commands that would result in a merge conflict.  

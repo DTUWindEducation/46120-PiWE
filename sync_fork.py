@@ -15,7 +15,14 @@ def run_command(command):
 
 def main():
     print("Syncing fork with upstream...")
+    run_command("git pull upstream main")
 
+    print(f"Pushing merged changes to origin/main...")
+    run_command(f"git push origin main")
+
+    print("Sync complete! Your fork is now up to date with the upstream repository.")
+
+"""
     # Check if inside a Git repository
     print("Checking if this is a Git repository...")
     run_command("git rev-parse --is-inside-work-tree")
@@ -38,6 +45,9 @@ def main():
     run_command(f"git push origin {current_branch}")
 
     print("Sync complete! Your fork is now up to date with the upstream repository.")
+"""
+
+
 
 if __name__ == "__main__":
     main()

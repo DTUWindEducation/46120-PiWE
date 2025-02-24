@@ -1,6 +1,6 @@
 # SPP Week 3: CodeCamp and Turbie
 
-TA office hours: Mondays and Wednesdays from 13:00 to 14:30.
+TA office hours: Wednesday from 13:00 to 15:00.
 
 Slides from lecture:  
  * In this subfolder.

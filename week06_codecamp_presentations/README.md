@@ -1,4 +1,4 @@
-# SPP Week 6: Presentations of CodeCamp Project
+# PiWE Week 6: Presentations of CodeCamp Project
 
 Office hours:  
  * None! No programming homework. :)

@@ -150,6 +150,7 @@ file in a new subfolder called `resp/` with a filename `test_resp.txt`.
 
 1. Read the project description and rubric for CodeCamp in Week 6 subfolder.  
 1. DO NOT WRITE ANY CODE THIS WEEK.  
+    * E.g., meet with no laptops at a whiteboard.  
 1. Design with your team an outline for the code you want to write.  
     * E.g., make a sketch, a list of steps, description of new functions and
     in which files they will be placed, etc.  

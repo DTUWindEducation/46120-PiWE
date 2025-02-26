@@ -1,4 +1,4 @@
-# SPP Week 3: CodeCamp and Turbie
+# PiWE Week 3: CodeCamp and Turbie
 
 TA office hours: Wednesday from 13:00 to 15:00.
 

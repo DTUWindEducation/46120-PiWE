@@ -53,10 +53,10 @@ If you already have the packages below installed in a Python distribution/enviro
 Search for and open an Anaconda Prompt (application). In the resulting terminal, enter the following
 command:  
 
-   ```python -m pip install numpy matplotlib scipy pandas pytest```  
+   ```python -m pip install numpy matplotlib scipy pandas pytest pytest-cov pylint```  
 
-This will install the numpy, matplotlib, scipy, pandas and pytest packages to your base Python environment.
-We will learn more about these packages during the course.
+This will install these packages to your base Python environment.
+We will learn more about what they do during the course.
 
 
 ## 3. Install git

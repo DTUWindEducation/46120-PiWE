@@ -1,0 +1,24 @@
+# An extremely simple pyproject.toml
+# Many more options here: https://packaging.python.org/en/latest/guides/writing-pyproject-toml/
+
+# How to build your package. "[S]trongly recommended" to include this,
+# per the docs. We use hatchling, default on Python docs.
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+# Information on the package
+[project]
+name = "examplepackage"
+description = "An example package"
+version = "0.0.1"
+authors = [
+    { name = "I. M. Cool", email = "imcool@noreally.com" }
+]
+dependencies = [
+    "matplotlib",
+    "numpy"
+]
+
+[project.urls]
+Repository = "https://github.com/me/spam.git"

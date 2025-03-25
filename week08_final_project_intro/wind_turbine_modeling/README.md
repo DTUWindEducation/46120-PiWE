@@ -129,7 +129,7 @@ Loop over all blade elements, we can then integrate to get the thrust ($T$) and
 torque ($M$), then the (aerodynamic) power output of the rotor can be computed
 as:
 
-    $$ P = M \omega$$
+$$P = M \omega$$
 
 Then thrust coefficient $C_T$ and power coefficient $C_P$ of the rotor can be
 compuated from the following equations:

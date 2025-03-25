@@ -94,26 +94,26 @@ contribution of thrust and torque of this blade element:
 
 * **Step 2**: Compute the flow angle $\phi$ using the following equation:
 
-    $$\tan \phi = \frac{(1-a)V_0}{(1+a^\prime)\omega r}$$
+$$\tan \phi = \frac{(1-a)V_0}{(1+a^\prime)\omega r}$$
 
 * **Step 3**: Compute the local angle of attack $\alpha$ using the following equation:
 
-    $$\alpha = \phi - (\theta_p + \beta)$$
+$$\alpha = \phi - (\theta_p + \beta)$$
 
 * **Step 4**: Compute $C_l(\alpha)$ and $C_d(\alpha)$ by interpolation based on
 the airfoil polars.
 
 * **Step 5**: Compute $C_n$ and $C_t$ with:
 
-    $$C_n = C_l \cos\phi + C_d \sin\phi$$
+$$C_n = C_l \cos\phi + C_d \sin\phi$$
 
-    $$C_t = C_l \sin\phi - C_d \cos\phi$$
+$$C_t = C_l \sin\phi - C_d \cos\phi$$
 
 * **Step 6**: Update $a$ and $a^\prime$ with:
 
-    $$a = \frac{1}{4 \sin^2 \phi/[\sigma(r) C_n] + 1}$$
+$$a = \frac{1}{4 \sin^2 \phi/[\sigma(r) C_n] + 1}$$
 
-    $$a^\prime = \frac{1}{4 \sin \phi \cos \phi/[\sigma(r) C_t] - 1}$$
+$$a^\prime = \frac{1}{4 \sin \phi \cos \phi/[\sigma(r) C_t] - 1}$$
 
 * **Step 7**: If $a$ and $a^\prime$ have changed more than a certain tolerance, 
 go back to Step 2, otherwise continue to Step 8.
@@ -121,9 +121,9 @@ go back to Step 2, otherwise continue to Step 8.
 * **Step 8**: Compute the local contribution of this blade element to the 
 thrust and torque as:
 
-    $$dT = 4 \pi r \rho V_0^2 a (1 -a) dr$$
+$$dT = 4 \pi r \rho V_0^2 a (1 -a) dr$$
 
-    $$dM = 4 \pi r^3 \rho V_0 \omega a^\prime (1 -a) dr$$
+$$dM = 4 \pi r^3 \rho V_0 \omega a^\prime (1 -a) dr$$
 
 Loop over all blade elements, we can then integrate to get the thrust ($T$) and 
 torque ($M$), then the (aerodynamic) power output of the rotor can be computed

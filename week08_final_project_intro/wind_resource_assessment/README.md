@@ -99,12 +99,16 @@ cases, streamline — traditional wind resource assessment practices.
 Assume you have the time series of wind speed [m/s] and wind direction [deg]
 from field measurement or models or reanalysis like in this project. They can 
 be denoted as:
+
 $$[u(t_1), u(t_2), ..., u(t_n)]$$
+
 $$[\theta(t_1), \theta(t_2), ..., \theta(t_n)]$$
 
 A Weibull distribution can be used to fit the distribution of wind speed, which
 has the following form:
+
 $$ f(u) = \frac{k}{A}(\frac{u}{A})^{(k-1)}e^{-{(u/A)}^k}$$
+
 where $f(u)$ is the probability density function of wind speed, $A$ and 
 $k$ are the Weibull scale and shape parameters. 
 

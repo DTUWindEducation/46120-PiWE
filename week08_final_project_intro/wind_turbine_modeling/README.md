@@ -68,7 +68,9 @@ Source: Figure 3.8 in (Hansen, 2015)
 
 We can then calculate the local solidity $\sigma(r)$, defined as the fraction 
 of the annular area in the control volume, which is covered by blades as follows:
+
 $$\sigma(r) = \frac{c(r)B}{2\pi r}$$
+
 where $B$ denotes the number of blades that is 3 for the turbine we considered.
 
 
@@ -80,6 +82,7 @@ angle is $\beta(r)$, and the rotor is operated at the following conditions:
 
 Note that given the rotor radius $R$, the inflow wind speed $V_0$ and the 
 rotational speed $\omega$, the tip speed ratio $\lambda$, or TSR, is given by:
+
 $$ \lambda = \frac{\omega R}{V_0}$$ 
 
 Based on the procedure described in Chapter 6 of (Hansen 2015), the following
@@ -90,20 +93,26 @@ contribution of thrust and torque of this blade element:
 * **Step 1**: Initialize $a$ and $a^\prime$, typically $a=a^\prime=0$.
 
 * **Step 2**: Compute the flow angle $\phi$ using the following equation:
+
     $$\tan \phi = \frac{(1-a)V_0}{(1+a^\prime)\omega r}$$
 
 * **Step 3**: Compute the local angle of attack $\alpha$ using the following equation:
+
     $$\alpha = \phi - (\theta_p + \beta)$$
 
 * **Step 4**: Compute $C_l(\alpha)$ and $C_d(\alpha)$ by interpolation based on
 the airfoil polars.
 
 * **Step 5**: Compute $C_n$ and $C_t$ with:
+
     $$C_n = C_l \cos\phi + C_d \sin\phi$$
+
     $$C_t = C_l \sin\phi - C_d \cos\phi$$
 
 * **Step 6**: Update $a$ and $a^\prime$ with:
+
     $$a = \frac{1}{4 \sin^2 \phi/[\sigma(r) C_n] + 1}$$
+
     $$a^\prime = \frac{1}{4 \sin \phi \cos \phi/[\sigma(r) C_t] - 1}$$
 
 * **Step 7**: If $a$ and $a^\prime$ have changed more than a certain tolerance, 
@@ -111,18 +120,22 @@ go back to Step 2, otherwise continue to Step 8.
 
 * **Step 8**: Compute the local contribution of this blade element to the 
 thrust and torque as:
+
     $$dT = 4 \pi r \rho V_0^2 a (1 -a) dr$$
+
     $$dM = 4 \pi r^3 \rho V_0 \omega a^\prime (1 -a) dr$$
 
 Loop over all blade elements, we can then integrate to get the thrust ($T$) and 
 torque ($M$), then the (aerodynamic) power output of the rotor can be computed
 as:
+
     $$ P = M \omega$$
 
 Then thrust coefficient $C_T$ and power coefficient $C_P$ of the rotor can be
 compuated from the following equations:
 
 $$ T =\frac{1}{2} \rho A V_0^2 \cdot C_T $$
+
 $$ P =\frac{1}{2} \rho A V_0^3 \cdot C_P $$
 
 Here $\rho$ is the air density (can be set as 1.225 kg/m3 in this project),

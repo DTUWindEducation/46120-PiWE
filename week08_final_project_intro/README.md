@@ -1,4 +1,4 @@
-# PiWE Week 8: Introduction to final project
+# PiWE Week 8: Final project introduction
 
 Office hours, slides, recordings:  
  * Office hours: Monday and Wednesday 13.00 - 14.30 on Zoom.
@@ -13,6 +13,8 @@ tests and documentation.
 
 Your individual final grade will be determined as a cumulative evaluation of 
 your contributions to the final project and an individual written quiz.
+
+**Due time of the final project**: 23:59 on Sunday, May 4th, 2025.
 
 ### Pre-defined final projects
 We provide three pre-defined final projects for you to choose, but you may also
@@ -32,8 +34,8 @@ Introductions and details on these projects can be found in the respective
 sub-folders.
 
 ### Requirements to pass
-1. Your final project should have the structure and required files as shown in the
-following diagram:
+1. Your final project should have the structure and required files as shown in 
+the following diagram:
    ```
    [your_final_project]
    ├── inputs/
@@ -55,14 +57,14 @@ following diagram:
    ├── pyproject.toml
    └── any_other_files_you_may_want (optional)
    ```
-2. Your Python package inside the `src` folder should include at least one class (
-we will cover class and object oriented programming in week 9).
+2. Your Python package inside the `src` folder should include at least one 
+class (we will cover class and object oriented programming in week 9).
 
 3. Your Python package should implement the required functions, either as 
-listed in **functional requirements** in the pre-defined documents, or as we 
+listed in **functional requirements** in the pre-defined projects, or as we 
 agreed on and documented if you work on a custom project.
 
-4. The README file should cantains:
+4. The README file should contains:
    * A brief overview of the package objective.  
    * Installation instructions.  
    * A description of the package architecture, with at least one diagram. 
@@ -74,11 +76,12 @@ agreed on and documented if you work on a custom project.
 **Installation instruction** in your `README.md`.
 
 6. Your `main.py` script inside the `examples` folder should demonstrate, in a
-clear and structured manner, how the required functions are called.
+clear and structured manner, how the required functions are called and 
+executed.
 
 7. Your `main.py` script should run successfully and generate the expected 
-results (like plots) in a reasonable time (less than 10 mins). If neeeded,
-define a "demon" mode and/or use saved intermedidate results.
+results (like plots) in a reasonable time (less than 10 mins). If needed,
+define a "demo" mode and/or use saved intermedidate results.
 
 8. Test coverage on your package should be higher than 80%, as evaluated using
 `pytest-cov` on your `src` folder, i.e., by running:
@@ -125,28 +128,28 @@ receive an "EM" grade.
 
 ### PART 1: Explore one of the pre-defined projects
 
-Discuss with your group, choose one pre-defined project to explore, write 
-a function to load, parse and plot the provided dataset in `inputs`, generate 
-at least one figure. 
+* Discuss with your group, choose one pre-defined project to explore.
+* Write a function to load, parse and plot the provided dataset in `inputs`, generate at least one figure. Ideally also with test in `tests`.
+* Think about the structure/architecture of your package.
 
 **Note**: the project you choose in this homework doesn't mean you have to 
 stick to that project. Your group can make decision later on which project to 
 work on. If you have a better project idea that your group want to pursue, 
 first check the section on **Custom project**, and then come talk to us. 
 
-But remember to **make a decision early**, so that your group has time to 
-work on it.
+But remember to **make a decision early**, so that your group has enough time 
+to work on it.
 
 
 
 ## Custom project
 
 If your group or youself choose to work on a custom project differs from the
-three pre-defined ones, please first make sure:
+three pre-defined ones, please note:
 
 1. Your project should be somehow related to wind and energy systems.
 
-2. The complexicity of the project should be comparable to the pre-defined
+2. The complexity of the project should be comparable to the pre-defined
 ones.
 
 3. You should be able to find relevant dataset by yourself, which preferably 
@@ -155,13 +158,13 @@ should be openly accessible.
 4. The size of your dataset, at lease for those needed to run your
 `examples/main.py`, should not be too big, like less than 100 MB.
 
-5. You will need to draft a general discription and a list of **Functional
+5. You will need to draft a general description and a list of **Functional
  requirements** for your custom project, similar to the README files in the
  pre-defined projects.
 
 6. To get approval for your custom project idea, you need to send an email to
-Ju Feng by midnight on Wednesday, April 9, including a document explaining the
-above points.  
+Ju Feng before midnight on Wednesday, April 9, including a document explaining 
+the above points.  
 
 
 ## Solo teams

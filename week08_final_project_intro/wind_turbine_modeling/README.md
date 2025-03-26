@@ -26,8 +26,9 @@ varying wind conditions.
 * **Load Analysis**: Calculating thrust and torque for structural design.
 
 For a more detailed introduction on the BEM theory, you are referred to the
-textbook (Martin ) or the DTU MSc course [46300 Wind Turbine Technology and 
-Aerodynamics](https://kurser.dtu.dk/course/2024-2025/46300?menulanguage=en).
+textbook (Hansen, 2015) or the DTU MSc course [46300 Wind Turbine Technology 
+and Aerodynamics](https://kurser.dtu.dk/course/2024-2025/46300?menulanguage=en).
+
 
 ### Typical BEM Workflow
 1. **Input Parameters**:
@@ -96,7 +97,8 @@ contribution of thrust and torque of this blade element:
 
 $$\tan \phi = \frac{(1-a)V_0}{(1+a^\prime)\omega r}$$
 
-* **Step 3**: Compute the local angle of attack $\alpha$ using the following equation:
+* **Step 3**: Compute the local angle of attack $\alpha$ using the following 
+equation:
 
 $$\alpha = \phi - (\theta_p + \beta)$$
 
@@ -219,7 +221,7 @@ to `49`, corresponding to airfoil index 1 to 50 in the blade geometry file.
 As a minimal, your package should be able to:
 1. Load and parse the provided turbine data
 
-2. Plot the provided airfoil shapes on one figure
+2. Plot the provided airfoil shapes in one figure
 
 3. Compute lift coefficient ($C_l$) and drag coefficient ($C_d$) as function
 of span position ($r$) and angle of attack ($\alpha$)

@@ -165,7 +165,7 @@ shifts degrade model performance over time.
 
 
 ## Provided data
-The provided dataset isa unique compilation of field-based meteorological 
+The provided dataset is a unique compilation of field-based meteorological 
 observations and wind power generation data, collected directly from a 
 company's operational sites. The dataset represents a detailed hourly record, 
 starting from January 2, 2017 to December 31, 2021. This rich dataset provides 
@@ -271,7 +271,7 @@ the current power output.
 using two different ML models (like support vector machine or neural network)
 
 7. Plot predicted against real timeseries of power for a given site (site 1,
- 2, 3 or 4) within a specific perid with a specified forecasting model.
+ 2, 3 or 4) within a specific period with a specified forecasting model.
 
 
 **Important note**: 

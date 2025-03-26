@@ -8,7 +8,7 @@ The objective of this project is to develop a Python package for wind resource
 assessment at a specified site using ERA5 reanalysis data. Students will 
 analyze multi-year hourly wind data at two heights (e.g., 10 m and 100 m) to 
 estimate key wind energy metrics, including wind speed distribution, wind rose, 
-annual energy production (AEP) for selected turbines. The library will provide
+annual energy production (AEP) for selected turbines. The package will provide
 tools to process, visualize, and interpret reanalysis data for use in wind 
 energy project planning.
 
@@ -43,11 +43,14 @@ law or logarithmic wind profile.
 5. **Directional Analysis**: Assessing prevailing wind directions via wind 
 roses.
 
-6. **Extrapolation**:
-Projecting wind speeds to turbine hub height and adjusting for local terrain 
-effects using computational models (e.g., [WAsP](https://www.wasp.dk/).
+6. **Temporal Extrapolation**:
+Long term correction using techniques like MCP (Measure–Correlate–Predict).
 
-7. **Energy Yield Estimation**:
+7. **Spatial Extrapolation**:
+Projecting wind speeds to turbine hub height and adjusting for local terrain 
+effects using computational models (e.g., [WAsP](https://www.wasp.dk/)).
+
+8. **Energy Yield Estimation**:
 Combining wind data with turbine power curves to calculate Annual Energy 
 Production (AEP) and uncertainty bounds.
 
@@ -89,7 +92,7 @@ measurements to bound AEP estimates.
 ### Project Context
 This project challenges students to automate key WRA tasks using ERA5 data,
 bridging the gap between reanalysis datasets and wind energy applications. By
-developing a Python library, students will replicate industry-standard 
+developing a Python package, students will replicate industry-standard 
 workflows(e.g., Weibull fitting, AEP calculation) while addressing the unique
 challenges of reanalysis data, such as spatial averaging and vertical 
 extrapolation. The results will highlight how ERA5 can supplement — or in some 
@@ -290,7 +293,9 @@ better characterize the wind condition, you may check the model prosed in
 
 
 ## References
-* Mortensen, N. G. (2018). *Wind resource assessment using the WAsP software*. DTU Wind Energy. DTU Wind Energy E No. 174 (Available at: https://backend.orbit.dtu.dk/ws/portalfiles/portal/164389714/Wind_resource_assessment_using_the_WAsP_software_DTU_Wind_Energy_E_0174_.pdf)
+* Mortensen, N. G. (2018). *Wind resource assessment using the WAsP software*. 
+DTU Wind Energy. DTU Wind Energy E No. 174 (Available at: 
+https://backend.orbit.dtu.dk/ws/portalfiles/portal/164389714/Wind_resource_assessment_using_the_WAsP_software_DTU_Wind_Energy_E_0174_.pdf)
 
 * Manwell, J.F., McGowan, J.C. and Rogers, A.L. (2009). *Wind Energy Explained: Theory, Design and Application*. 2nd edition. John Wiley & Sons
 

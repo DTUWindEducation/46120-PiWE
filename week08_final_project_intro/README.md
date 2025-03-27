@@ -81,7 +81,7 @@ executed.
 
 7. Your `main.py` script should run successfully and generate the expected 
 results (like plots) in a reasonable time (less than 10 mins). If needed,
-define a "demo" mode and/or use saved intermedidate results.
+define a "demo" mode and/or use saved intermediate results.
 
 8. Test coverage on your package should be higher than 80%, as evaluated using
 `pytest-cov` on your `src` folder, i.e., by running:
@@ -129,7 +129,8 @@ receive an "EM" grade.
 ### PART 1: Explore one of the pre-defined projects
 
 * Discuss with your group, choose one pre-defined project to explore.
-* Write a function to load, parse and plot the provided dataset in `inputs`, generate at least one figure. Ideally also with test in `tests`.
+* Write a function to load, parse and plot the provided dataset in `inputs`, 
+generate at least one figure. Ideally also with test in `tests`.
 * Think about the structure/architecture of your package.
 
 **Note**: the project you choose in this homework doesn't mean you have to 

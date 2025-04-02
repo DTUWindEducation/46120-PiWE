@@ -13,9 +13,9 @@ self-contained units, promoting modular, reusable, and maintainable code.
 
 Classes are blueprints for creating objects. They define:
 
-* **Attributes** (e.g., a Car class might have color and speed).
+* **Attributes** (e.g., a `Car` class might have color and speed).
 
-* **Methods** (e.g., drive() or brake()).
+* **Methods** (e.g., `drive()` or `break()`).
 
 A class acts as a template, while objects are specific instances.
 
@@ -44,7 +44,8 @@ Check Week 8 for details, and rememeber the following deadline:
 ## Homework due next week
 
 ### Homework 0: Write wind turbine classes
-Write a `GeneralWindTurbine` class and a `WindTurbine` class that inherits the GeneralWindTurbine class. They should encapsulate data that describes the 
+Write a `GeneralWindTurbine` class and a `WindTurbine` class that inherits the 
+`GeneralWindTurbine` class. They should encapsulate data that describes the 
 turbine characteristics and provide function to predict power output of the 
 turbine under a given wind speed.
 
@@ -55,7 +56,8 @@ The following tasks need to be done:
     * rated_power [kW]
     * v_in [m/s]
     * v_rated [m/s] 
-    * v_out [m/s] 
+    * v_out [m/s]
+    * name, optional (default set as `None`) 
     
     where v_in < v_rated < v_out are the cut_in, rated and cut_out wind speed, 
     and has the function `get_power()` that return power output P at wind speed 
@@ -65,9 +67,10 @@ The following tasks need to be done:
     * if v_rated <= v <= v_out, P = rated_power
 
 
-2. Write a `WindTurbine` class inherits from `GeneralWindTurbine` class, which should have an extra attribute: `power_curve_data` which is assumed to be an 
+2. Write a `WindTurbine` class inherits from `GeneralWindTurbine` class, which
+should have an extra attribute: `power_curve_data` which is assumed to be an 
 n by 2 `numpy` array defines the power curve, i.e., first column defines wind
- speed [m/s] and second column defines power [kW].
+speed [m/s] and second column defines power [kW].
 
     Overide the `get_power(v)` function using the power curve data based on interpolation (e.g., using `numpy.interp`).
 

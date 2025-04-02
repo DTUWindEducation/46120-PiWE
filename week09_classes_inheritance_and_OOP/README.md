@@ -75,7 +75,7 @@ n by 2 `numpy` array defines the power curve, i.e., first column defines wind
 https://nrel.github.io/turbine-models/LEANWIND_8MW_164_RWT.html 
 
     Its power curve data can be obtained at:
-https://github.com/NREL/turbine-models/blob/master/Offshore/LEANWIND_8MW_164_RWT.csv
+https://github.com/NREL/turbine-models/blob/main/turbine_models/data/Offshore/LEANWIND_Reference_8MW_164.csv
 
 4. Plot out and compare the power curves of these wind turbine objects and see 
 how different they are.

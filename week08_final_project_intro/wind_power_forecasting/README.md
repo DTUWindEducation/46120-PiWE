@@ -220,7 +220,7 @@ the surface (see notes)
 * **winddirection_100m** - Wind direction in degrees (0-360) at 100 meters 
 above the surface (see notes)
 
-* **windgusts_10m** - Wind gusts in meters per second at 100 meters above the 
+* **windgusts_10m** - Wind gusts in meters per second at 10 meters above the 
 surface
 
 * **Power** - Turbine output, normalized to be between 0 and 1 (i.e., a 

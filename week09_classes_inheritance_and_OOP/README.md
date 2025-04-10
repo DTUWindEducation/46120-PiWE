@@ -1,7 +1,7 @@
 # PiWE Week 9: Classes, inheritance and OOP
 
 Office hours, slides, recordings:  
- * Office hours: Monday and Wednesday 13.00 - 14.30 on Zoom.
+ * Office hours: Monday 13.00 - 14.30 and Tuesday 15.30 - 17.00 on Zoom.
  * Slides: In this subfolder  
  * Recording: on Learn
 

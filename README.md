@@ -19,23 +19,23 @@ The course is hybrid, meaning that you can attend physically or online as you ch
 
 ### Tentative course schedule
 
-| Week    | Lecture | Topic                                                | Due this week                      |
-|---------|---------|------------------------------------------------------|------------------------------------|
-| Week 0  | ---     | Set up, prep for Week 1                              |                                    |
-| Week 1  | 06-feb  | Introduction, Git/GitLab                             | Pre-class preparation              |
-| Week 2  | 13-feb  | Functions and tests                                  |                                    |
-| Week 3  | 20-feb  | CodeCamp I: Loading and plotting, PSD, eigenanalysis | Sign up for CodeCamp project group |
-| Week 4  | 27-feb  | CodeCamp II: simulate_turbie()                       |                                    |
-| Week 5  | 06-mar  | Environments and communicating code                  |                                    |
-| Week 6  | 13-mar  | CodeCamp final project presentations                 | CodeCamp final project (pass/fail) |
-| Week 7  | 20-mar  | Packaging and dependencies                           |                                    |
-| Week 8  | 27-mar  | Final project introduction                           | Sign up for final project group    |
-| Week 9  | 03-apr  | Classes, inheritence and OOP                         |                                    |
-| Week 10 | 10-apr  | Computational thinking and design of architecture    |                                    |
-| Week 11 | 17-apr  | PEP8 / PEP257 and linters                            |                                    |
-|  EASTER | 24-apr  | --                                                   |                                    |
-| Week 12 | 01-may  | Python on Gbar (HPC)                                 | Package should be complete         |
-| Week 13 | 08-may  | Quiz, final-project presentations                    | Final project (pass fail)          |
+| Week    | Lecture | Topic                                                | Due this week                       |
+|---------|---------|------------------------------------------------------|-------------------------------------|
+| Week 0  | ---     | Set up, prep for Week 1                              |                                     |
+| Week 1  | 06-feb  | Introduction, Git/GitLab                             | Pre-class preparation               |
+| Week 2  | 13-feb  | Functions and tests                                  |                                     |
+| Week 3  | 20-feb  | CodeCamp I: Loading and plotting, PSD, eigenanalysis | Sign up for CodeCamp project group  |
+| Week 4  | 27-feb  | CodeCamp II: simulate_turbie()                       |                                     |
+| Week 5  | 06-mar  | Environments and communicating code                  |                                     |
+| Week 6  | 13-mar  | CodeCamp final project presentations                 | CodeCamp final project (pass/fail)  |
+| Week 7  | 20-mar  | Packaging and dependencies                           |                                     |
+| Week 8  | 27-mar  | Final project introduction                           | Sign up for final project group     |
+| Week 9  | 03-apr  | Classes, inheritence and OOP                         |                                     |
+| Week 10 | 10-apr  | Computational thinking and design of architecture    |                                     |
+|  EASTER | 17-apr  | --                                                   |                                     |
+| Week 11 | 24-apr  | Midway presentations                                 |                                     |
+| Week 12 | 01-may  | Python on Gbar (HPC)                                 | Final project due May 4 (pass/fail) |
+| Week 13 | 08-may  | Quiz, final-project presentations                    | Peer reviews presented in class     |
 
 ### Hand-ins and grading
 

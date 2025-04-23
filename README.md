@@ -57,3 +57,16 @@ be pushed in the coming weeks.
 ## Sign-ups for groups
 
  * On Learn.
+
+## Notes and Tips
+
+You can find a list of notes and tips in the folder [`notes_and_tips`](
+    notes_and_tips/) for selected topics, which are
+important for the programming assignments/projects in this course.
+
+Currently, we have:
+1. [**Interpolation in Python: An Introduction with `Numpy` and  `SciPy`**](
+notes_and_tips/1_note_on_interpolation.md)
+
+2. [**Introduction to Machine Learning with `scikit-learn`**](
+notes_and_tips/2_note_on_machine_learning.md)

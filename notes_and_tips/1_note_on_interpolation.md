@@ -136,4 +136,3 @@ z_new = interp_func(x_new, y_new)
 
 Always test extrapolated results critically — interpolation is safer than 
 extrapolation!
-```

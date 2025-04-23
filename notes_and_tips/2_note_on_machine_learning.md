@@ -262,7 +262,6 @@ temporal patterns).
 - Use **feature scaling** for non-linear models (e.g., SVM, neural networks).
 - Experiement with different feature selections/engineering, different ML models, and parameter tuning.
 
-``` 
 
-This guide provides a foundation for time-series regression tasks. Adjust 
+This note provides a foundation for time-series regression tasks. Adjust 
 feature engineering and model selection based on data complexity!

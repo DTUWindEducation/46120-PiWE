@@ -107,6 +107,55 @@ y_new = np.linspace(-1, 7, 100)
 z_new = interp_func(x_new, y_new)
 ```
 
+## 4. **Interpolation on higher dimensions**
+For higher (arbitrary) dimensions, use `RegularGridInterpolator` if the 
+provided data points are on a regular or rectilinear grid.
+
+The data must be defined on a rectilinear grid; that is, a rectangular grid 
+with even or uneven spacing. Linear, nearest-neighbor, spline interpolations 
+are supported. After setting up the interpolator object, the interpolation 
+method may be chosen at each evaluation.
+
+```python
+from scipy.interpolate import RegularGridInterpolator
+import numpy as np
+
+# Example on 3D datas
+def f(x, y, z):  
+    return 2 * x**3 + 3 * y**2 - z
+
+x = np.linspace(1, 4, 11)
+y = np.linspace(4, 7, 22)
+z = np.linspace(7, 9, 33)
+
+xg, yg ,zg = np.meshgrid(x, y, z, indexing='ij', sparse=True)
+
+# data is now a 3-D array with data[i, j, k] = f(x[i], y[j], z[k])
+data = f(xg, yg, zg)
+
+
+# define an interpolating function from this data:
+interp_func2 = RegularGridInterpolator((x, y, z), data)
+
+# Evaluate the interpolating function at the two poins
+pts = np.array([[2.1, 6.2, 8.3],
+                [3.3, 5.2, 7.1]])
+
+# You can choose different method when evaluating
+# Supported are “linear”, “nearest”, “slinear”, “cubic”, “quintic” and “pchip”.
+
+# Use linear interpolation method
+values_interped_linear = interp_func2(pts, method='linear')
+
+# Use cubic spline interpolation method
+values_interped_cubic = interp_func2(pts, method='cubic')
+
+# Compare the different values
+print(values_interped_linear)
+print(values_interped_cubic)
+```
+
+
 ---
 
 ## Handling Out-of-Range Data: Key Considerations
@@ -132,7 +181,15 @@ z_new = interp_func(x_new, y_new)
 - **SciPy's `interp1d`**: Flexible extrapolation for higher-order methods.
 - **Splines**: Use with caution for extrapolation due to potential instability.
 - **2D+ Data**: Enable extrapolation with flags like `extrapolate=True`.
-- **More options**: Check other methods and tools in `scipy.interpolate`
+- **Unstructured data**:
+   - `griddata` - Interpolate unstructured N-D data, choosing from 3 methods:
+   'linear’, ‘nearest’, ‘cubic’.
+   - `NearestNDInterpolator` - Nearest neighbor interpolator on unstructured 
+   data in N dimensions
+   - `LinearNDInterpolator` - Piecewise linear interpolator on unstructured 
+   data in N dimensions.
+- **More options**: Check other methods and tools in `scipy.interpolate`.
+
 
 Always test extrapolated results critically — interpolation is safer than 
 extrapolation!

@@ -1,9 +1,9 @@
 
-# Interpolation in Python: An Introduction with `Numpy` and  `SciPy`
+# Interpolation in Python: An Introduction with `NumPy` and  `SciPy`
 
 Interpolation is a technique used to estimate unknown values between known data
 points. It is widely used in data analysis, signal processing, and scientific 
-computing. Python provides powerful libraries like `Numpy` and `SciPy` for 
+computing. Python provides powerful libraries like `NumPy` and `SciPy` for 
 interpolation tasks. It will also be a basic operation you need to do for your
 final projects in this course, especially for **Wind resource assessment** and 
 **Wind turbine modelling**. 

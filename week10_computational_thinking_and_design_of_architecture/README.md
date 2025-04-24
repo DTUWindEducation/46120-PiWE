@@ -1,7 +1,7 @@
 # PiWE Week 10: Computational thinking and design of architecture
 
 Office hours, slides, recordings:  
- * Office hours: Monday 13.00 - 14.30 and Tuesday 15.30 - 17.00 on Zoom.
+ * Office hours: Monday and Wednesday 13.00 - 14.30 on Zoom.
  * Slides: In this subfolder  
  * Recording: on Learn
 

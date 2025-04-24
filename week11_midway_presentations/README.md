@@ -17,5 +17,5 @@ You should have quite some progresses on the final project in your group.
 * Remember to use branch and PR.
 * Write meaningful commit messages.
 * Check the notes in the folder [`notes_and_tips`](
-    ../notes_and_tips/) for inspirations, if you have some chanllenges in your
+    ../notes_and_tips/) for inspirations, if you have some challenges in your
     final project.

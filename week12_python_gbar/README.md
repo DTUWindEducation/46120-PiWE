@@ -242,7 +242,7 @@ pre-done for you.
   to use 4 threads, one would do:
 
       OMP_NUM_THREADS=4 python3 run_turbie_parallel.py
-
+  
   Alternatively one can do:
 
       export OMP_NUM_THREADS=4
@@ -259,8 +259,15 @@ pre-done for you.
   On our HPC facility, the default value of `OMP_NUM_THREADS`
   is 1.
 
+  We can monitor the behaviour of our code by opening another window and logging into our current interactive node:
 
-  Secondly, the parallel code can be runned in parallel mode.
+      linuxsh -I -l nodes=your_node 
+
+  and then running
+
+      htop 
+
+  Secondly, the parallel code can be run in parallel mode.
 
       python3 run_turbie_parallel.py n <integer>
   

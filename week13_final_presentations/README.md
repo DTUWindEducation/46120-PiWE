@@ -7,6 +7,7 @@
 ## Final project requirements and rubric
 
 See PDF in the same folder as this README.
+Repos lock Sunday May 4 at 23:59.
 
 ## Feedback due before class
 

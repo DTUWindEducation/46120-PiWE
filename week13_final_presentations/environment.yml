@@ -1,0 +1,5 @@
+name: testpack
+dependencies:
+  - pylint
+  - pytest
+  - pytest-cov

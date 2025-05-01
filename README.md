@@ -73,3 +73,6 @@ notes_and_tips/2_note_on_machine_learning.md)
 
 3. [**Introduction to Curve Fitting with `SciPy`**](
 notes_and_tips/3_note_on_curve_fitting.md)
+
+4. [**Working with Wind Direction in Python**](
+notes_and_tips/4_note_on_wind_direction.md)

@@ -1,7 +1,7 @@
 # PiWE Week 11: Midway presentations
 
 Office hours, slides, recordings:  
- * Office hours: Monday and Wednesday 13.00 - 14.30 on Zoom.
+ * Office hours: Monday 13.00 - 14.30 and Wednesday 15.30 - 17.00 on Zoom.
  * Slides: In this subfolder  
  * Recording: on Learn
 

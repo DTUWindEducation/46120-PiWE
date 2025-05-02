@@ -154,7 +154,113 @@ values_interped_cubic = interp_func2(pts, method='cubic')
 print(values_interped_linear)
 print(values_interped_cubic)
 ```
+For higher (arbitrary) dimensions, use `RegularGridInterpolator` if the 
+provided data points are on a regular or rectilinear grid.
 
+
+## 5. **Practical Examples**
+Here we provide two practical examples that are quite relevant for two of the
+final projects:
+
+### Interpolation over mutiple files
+This example is relevant for the **Wind turbine modelling** project, especially
+the 2nd functional requirement:
+   - Compute lift coefficient ($C_l$) and drag coefficient ($C_d$) as function 
+   of span position ($r$) and angle of attack ($\alpha$)
+
+Assume you have a list of 2D tables of some varialbe over the $x$ and $y$ 
+dimension, each table corresponds to a position $r$ in the 3rd dimension, and 
+you want to interpolate to find the variable for a point in the 3D space, i.e.,
+defined by $x$, $y$ and $r$. 
+
+The following code demonstrates how to do this:
+
+```python
+from scipy.interpolate import RegularGridInterpolator
+import numpy as np
+
+# these ranges should be strictly ascending or desending
+x_range = np.linspace(0, 10, num=11)
+y_range = np.linspace(0, 20, num=21)
+r_range = np.linspace(0, 100, num= 51)
+
+# Using synthetic data randomly generated as an example for a list of 2D tables
+xy_table_list = []
+for r in r_range:
+   xy_table_list.append(
+      np.random.rand(len(x_range), len(y_range)))
+
+# Construct a 3D array with xyr_array[i, j, k] defines the variable for 
+# point: x_range[i], y_range[j], r_range[k]
+xyr_array = np.zeros((len(x_range), len(y_range), len(r_range)))
+
+for k in range(len(r_range)):
+   xyr_array[:, :, k] = xy_table_list[k]
+
+# Construct the interpolate function using `RegularGridInterpolator`
+interp_func = RegularGridInterpolator(
+   (x_range, y_range, r_range), xyr_array)
+
+# You may wrap the interp_func inside a function:
+def get_variable(x, y, r):
+   return interp_func((x, y, r), method='linear')
+
+# Test for some points
+for index in [[0, 0, 0], [10, 12, 38], [10, 20, 50]]:
+   i, j, k = index
+   var_real = xy_table_list[k][i, j]
+   var_interp = get_variable(x_range[i], y_range[j], r_range[k])
+   print(f'For x_range[{i}], x_range[{i}], x_range[{i}], the original variable'
+      + f'is : {var_real}, interpolated value is: {var_interp}')
+   assert np.isclose(var_real, var_interp)
+```
+
+
+### Interpolation over mutiple time series
+This example is relevant for the **Wind resource assessment** project, especially
+the 3rd functional requirement:
+   - Compute wind speed and wind direction time series at 10 m and 100 m 
+   heights for a given location inside the box bounded by the four locations, 
+   such as the Horns Rev 1 site, using interpolation.
+
+Assume you have 4 grid point on the x-y plane, each has a time-series of a 
+variable (like wind speed) for the same period and with the same time step, 
+you need to find the cooresponding time-series for a point in between.
+
+The following code demonstrate how to do this:
+
+```python
+import numpy as np
+from scipy.interpolate import RegularGridInterpolator
+import matplotlib.pyplot as plt
+
+# Grid points on the x-y coordinate
+x = [0, 1]   # x/y array should be strictly ascending or desending
+y = [0, 1]
+
+# Assume each points hold a time-series with 100 time steps
+# here ts_for_4_points[i, j, t] are ts(t) at x[i], y[j]
+num_time_steps = 100
+ts_for_4_points = np.random.rand(2, 2, num_time_steps)
+
+# Build the interpolation function
+interp_func = RegularGridInterpolator((x, y), ts_for_4_points)
+
+# Test for the first point
+assert np.all(np.isclose(interp((0, 0)), ts_for_4_points[0, 0, :]))
+
+# interpolate for a point [0.5, 0.5] in between
+ts_interp = interp_func((0.5, 0.5), method='linear')
+
+fig = plt.figure()
+plt.plot(ts_for_4_points[0, 0, :])
+plt.plot(ts_for_4_points[1, 0, :])
+plt.plot(ts_for_4_points[0, 1, :])
+plt.plot(ts_for_4_points[1, 1, :])
+plt.plot(ts_interp)
+plt.legend(['point 0', 'point 1', 'point 2', 'point 3',
+            'interped'])
+```
 
 ---
 

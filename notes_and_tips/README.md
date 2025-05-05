@@ -12,3 +12,9 @@ Currently, we have:
 
 3. [**Introduction to Curve Fitting with `SciPy`**](
 3_note_on_curve_fitting.md)
+
+4. [**Working with Wind Direction in Python**](
+4_note_on_wind_direction.md)
+
+5. [**Organize a Python Package with `pyproject.toml` and `__init__.py`**](
+5_note_on_packaging.md)

@@ -47,13 +47,21 @@ feedback session and cross-topic presentations.
 
 ## Who you should submit feedback for
 
-The diagram below shows (1) the three teams you submit feedback forms for and (2)
-which BOR you should enter in Week 13.
+The course evaluation results showed that students did not find it
+beneficial to give feedback to teams who did different projects, so
+we have split according to project. The diagram below shows who reviews
+whom and which BOR you should enter during class.
 
-The course evaluation results showed that students did not find it beneficial to
-give feedback to teams who did different projects, so we have split according
-to project. Teams in BORs with 4 teams (i.e., BORs 3 through 6) should submit
-feedback for the other 3 teams in the same room. Teams in BORs 1 and 2 should
-review the other 2 teams in their BOR PLUS 1 extra team ("Review 3").
+* If you are in a BOR with 3 teams total:  
+  * Review the 2 other teams in your BOR PLUS the 1 team listed in "Review 3"
+    column.  
+  * E.g., Soul Finders reviews Breeze-Tech, Lightning McTeam, and La Bombas
+    del Diablo.  
+* If you are in a BOR with 4 teams total and Review 1/Review 2 is empty:  
+  * Review the 3 other teams in your BOR.  
+  * E.g., Stop Fucking Spiders reviews WindWizards, codingteam and Crypto-Mania.  
+* If you are in a BOR with 4 teams total and Review 1/Review 2 is NOT empty:  
+  * Review the 3 teams listed in the "Review" columns.  
+  * E.g., Los Programadores reviews WindGPT, WindFusion and FatalError.
 
 ![Who reviews whom](who-reviews-whom.png)

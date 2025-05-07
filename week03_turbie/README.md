@@ -1,6 +1,6 @@
-# SPP Week 3: CodeCamp and Turbie
+# PiWE Week 3: CodeCamp and Turbie
 
-TA office hours: Mondays and Wednesdays from 13:00 to 14:30.
+TA office hours: Wednesday from 13:00 to 15:00.
 
 Slides from lecture:  
  * In this subfolder.
@@ -109,8 +109,8 @@ adequate time for this and ask for help from TAs/instructors.
       `t_start` that allows a user to specify a start time for the
       data returned by the function. For example, if the data in the
       file starts at 0 seconds and ends at 660 but a user specifies
-      `t_start=60`, then the function would only return the data from
-      60 to 660 seconds. The default value for `t_start` should be 0.
+      `t_start=45`, then the function would only return the data from
+      45 seconds onwards. The default value for `t_start` should be 60.
       If you aren't familiar with keyword/default arguments, [this
       is a nice tutorial](https://www.educative.io/answers/what-are-keyword-arguments-in-python).
     * The function returns 4 1-dimensional NumPy arrays: `t`, `u`,
@@ -136,8 +136,8 @@ adequate time for this and ask for help from TAs/instructors.
       `t_start` that allows a user to specify a start time for the
       data returned by the function. For example, if the data in the
       file starts at 0 seconds and ends at 660 but a user specifies
-      `t_start=60`, then the function would only return the data from
-      60 to 660 seconds. The default value for `t_start` should be 0.
+      `t_start=100`, then the function would only return the data from
+      100 to the end. The default value for `t_start` should be 0.
     * The function returns 2 1-dimensional NumPy arrays: `t_wind`, `u_wind`.  
 1. Modify `code_week3.py` so the code calls `load_wind()` on the example
    wind file in the `data/` folder.  

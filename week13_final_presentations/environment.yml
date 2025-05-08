@@ -1,4 +1,4 @@
-name: testpack
+name: wt
 dependencies:
   - pylint
   - pytest

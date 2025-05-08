@@ -57,3 +57,25 @@ be pushed in the coming weeks.
 ## Sign-ups for groups
 
  * On Learn.
+
+## Notes and Tips
+
+You can find a list of notes and tips in the folder [`notes_and_tips`](
+    notes_and_tips/) for selected topics, which are
+important for the programming assignments/projects in this course.
+
+Currently, we have:
+1. [**Interpolation in Python: An Introduction with `NumPy` and  `SciPy`**](
+notes_and_tips/1_note_on_interpolation.md)
+
+2. [**Introduction to Machine Learning with `scikit-learn`**](
+notes_and_tips/2_note_on_machine_learning.md)
+
+3. [**Introduction to Curve Fitting with `SciPy`**](
+notes_and_tips/3_note_on_curve_fitting.md)
+
+4. [**Working with Wind Direction in Python**](
+notes_and_tips/4_note_on_wind_direction.md)
+
+5. [**Organize a Python Package with `pyproject.toml` and `__init__.py`**](
+notes_and_tips/5_note_on_packaging.md)

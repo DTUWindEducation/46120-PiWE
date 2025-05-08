@@ -14,6 +14,8 @@ def square(x):
     return x**2
 
 
+
+
 def power(x, m):
     """Raise a number to the mth power.
 

@@ -1,6 +1,6 @@
 # PiWE Week 2: Functions and Tests
 
-TA office hours: Mondays from 13:00 to 15:00
+TA office hours: Mondays and Wednesdays from 13:00 to 14:30.
 
 Slides: here in this subfolder.
 

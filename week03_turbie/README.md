@@ -96,8 +96,10 @@ adequate time for this and ask for help from TAs/instructors.
 1. In a text editor of your choice, open the results file `resp_12_ms_TI_0.1.txt`.
    You can find the file in the `data` folder on your CodeCamp Team
    repo. How many columns are there? What does each column represent?
+      4 columns, Time, Vel, Blade deflection and Tower deflection.
 1. Scroll through the results file and find out what the wind speed
    is at $t=60$ s. What are the responses at $t = 345$ s?
+   V = 11.665; /// xb = 0.853; xt = 0.55.
 1. In `codecamp/__init__.py` on your team repo, make a function called `load_resp()` that:  
     * Loads the Turbie response saved in a text file in the same
       format as `resp_12_ms_TI_0.1.txt`, to a set of NumPy arrays.  
